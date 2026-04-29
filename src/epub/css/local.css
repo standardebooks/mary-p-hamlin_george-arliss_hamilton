@@ -39,7 +39,12 @@
 	text-align: center;
 }
 
-#original-plabill th,
+#original-playbill span{
+	letter-spacing: .2em;
+	margin-right: -0.2em;
+}
+
+#original-playbill th,
 td{
 	padding-left: 2em;
 	padding-right: 2em;
@@ -49,7 +54,7 @@ td{
 	display: inline-block;
 	margin: auto;
 	margin-top: 3em;
-	max-width: 80%;
+	max-width: 85%;
 }
 
 @supports(display: flex){
@@ -59,19 +64,17 @@ td{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		margin: 0 auto;
 		min-height: calc(98vh - 3em);
 		padding-top: 3em;
+		width: 80%;
 	}
+}
 
-	#original-playbill span{
-		letter-spacing: .2em;
-		margin-right: -0.2em;
-	}
-
-	#playbill-1 p{
-		text-align: initial;
-		text-indent: 0;
-	}
+#playbill-1 p{
+	margin: 0 auto;
+	max-width: 80%;
+	text-indent: 3em;
 }
 /* End playbill */
 
