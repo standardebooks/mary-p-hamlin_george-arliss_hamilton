@@ -36,24 +36,27 @@
 
 /* Begin playbill */
 #original-playbill p{
-	text-align: center;
+	text-indent: 0;
 }
 
-#original-playbill span{
-	letter-spacing: .2em;
-	margin-right: -0.2em;
+#original-playbill p:nth-of-type(1){
+	padding-top: .5em;
+	text-align: center;
 }
 
 #original-playbill th,
 td{
 	padding-left: 2em;
-	padding-right: 2em;
+}
+
+#original-playbill td:nth-of-type(2){
+	padding-right: 1em;
+	text-align: right;
 }
 
 #original-playbill > *{
 	display: inline-block;
 	margin: auto;
-	margin-top: 3em;
 	max-width: 85%;
 }
 
@@ -66,15 +69,45 @@ td{
 		justify-content: center;
 		margin: 0 auto;
 		min-height: calc(98vh - 3em);
-		padding-top: 3em;
 		width: 80%;
 	}
 }
 
+#playbill-1 p:nth-of-type(1){
+	font-size: 1.17em;
+	font-variant: normal;
+	font-weight: 700;
+	padding-bottom: .5em;
+}
+
 #playbill-1 p{
+	font-variant: normal;
+	padding-bottom: .5em;
+	text-align: center;
+}
+
+#playbill-1 span:nth-of-type(1){
+	font-size: 1.17em;
+	font-variant: normal;
+	font-weight: 700;
+	letter-spacing: .2em;
+	margin-right: -0.2em;
+	text-transform: uppercase;
+}
+
+#playbill-2 p{
+	font-variant: normal;
 	margin: 0 auto;
-	max-width: 80%;
-	text-indent: 3em;
+}
+
+#playbill-2 p:nth-of-type(1){
+	font-variant: normal;
+	padding-bottom: .5em;
+	text-align: center;
+}
+
+#playbill-2 span{
+	font-variant: normal;
 }
 /* End playbill */
 
