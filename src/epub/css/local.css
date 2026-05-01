@@ -73,22 +73,19 @@ td{
 	}
 }
 
-#playbill-1 p:nth-of-type(1){
-	font-size: 1.17em;
-	font-variant: normal;
-	font-weight: 700;
-	padding-bottom: .5em;
-}
-
 #playbill-1 p{
 	font-variant: normal;
 	padding-bottom: .5em;
 	text-align: center;
 }
 
-#playbill-1 span:nth-of-type(1){
+#playbill-1 p:nth-of-type(1){
 	font-size: 1.17em;
-	font-variant: normal;
+	font-weight: 700;
+}
+
+#playbill-1 p:nth-of-type(3){
+	font-size: 1.17em;
 	font-weight: 700;
 	letter-spacing: .2em;
 	margin-right: -0.2em;
@@ -101,14 +98,10 @@ td{
 }
 
 #playbill-2 p:nth-of-type(1){
-	font-variant: normal;
 	padding-bottom: .5em;
 	text-align: center;
 }
 
-#playbill-2 span{
-	font-variant: normal;
-}
 /* End playbill */
 
 /* Begin Drama */
