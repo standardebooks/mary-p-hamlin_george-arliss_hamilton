@@ -106,10 +106,10 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
-		<itemref idref="preface.xhtml"/>
 		<itemref idref="dramatis-personae.xhtml"/>
-		<itemref idref="costumes.xhtml"/>
+		<itemref idref="preface.xhtml"/>
 		<itemref idref="original-playbill.xhtml"/>
+		<itemref idref="costumes.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="act-1.xhtml"/>
 		<itemref idref="act-2.xhtml"/>
