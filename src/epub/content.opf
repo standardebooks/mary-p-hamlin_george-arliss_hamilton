@@ -29,57 +29,62 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Hamilton</dc:title>
 		<meta property="file-as" refines="#title">Hamilton</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Play in Four Acts</dc:title>
+		<meta property="file-as" refines="#subtitle">Play in Four Acts, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Hamilton: A Play in Four Acts</dc:title>
+		<meta property="file-as" refines="#fulltitle">Hamilton</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Hamilton, Alexander, 1757-1804--Drama</dc:subject>
+		<dc:subject id="subject-2">Hamilton, Alexander, 1757-1804</dc:subject>
+		<dc:subject id="subject-3">Historical drama, American</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">n79021633</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85061151</meta>
+		<meta property="se:subject">Drama</meta>
+		<dc:description id="description">Alexander Hamilton is enticed into an affair with a married woman, then reacts to threatened exposure by sacrificing his personal honor in defense of the honor of his office.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Alexander Hamilton is enticed into an extramarital affair by Mrs. Reynolds, perhaps with the connivance of his political enemies, then blackmailed by her husband (who encouraged the affair). When his payments to the husband are exposed, Hamilton is accused of exploiting his position for criminal speculation. Hamilton responds with the truth of blackmail due to an illicit affair with the blackmailer’s wife to preserve the integrity of the office of Treasury Secretary, sacrificing his personal honor and future ambitions. The play condenses the historical timeline, capturing the essence of Hamilton’s sincerity, dedication, honor, and courage.&lt;/p&gt;
+			&lt;p&gt;Alexander Hamilton’s extramarital affair with a married woman, Mrs. Reynolds, is well documented including a 1797 pamphlet published by Hamilton himself. The authors state they’ve kept close to history in essential details. Hamilton’s affair is believed to be the first widely publicized political sex scandal in U.S. history.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
-		<dc:source>TRANSCRIPTION_URL</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://en.wikisource.org/wiki/Hamilton_(play)</dc:source>
+		<dc:source>https://archive.org/details/hamiltonplayinfo00haml</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Hamilton</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Hamilton_(play)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-p-hamlin_george-arliss_hamilton</meta>
 		<dc:creator id="author-1">Mary P. Hamlin</dc:creator>
 		<meta property="file-as" refines="#author-1">Hamlin, Mary P.</meta>
-		<meta property="se:name.person.full-name" refines="#author-1">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author-1">Mary Ida Parmele Hamlin</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Mary_P._Hamlin</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author-1">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/no99003486</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aud</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">wpr</meta>
 		<dc:creator id="author-2">George Arliss</dc:creator>
 		<meta property="file-as" refines="#author-2">Arliss, George</meta>
-		<meta property="se:name.person.full-name" refines="#author-2">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author-2">Augustus George Andrews</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/George_Arliss</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/no89006300</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">aud</meta>
 		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">John Trumbull</dc:contributor>
+		<meta property="file-as" refines="#artist">Trumbull, John</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Trumbull</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50011728</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">Packer1028</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Packer1028</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org/wiki/User:Packer1028</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Anonymous</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
