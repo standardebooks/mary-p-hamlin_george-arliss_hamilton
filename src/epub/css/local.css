@@ -23,6 +23,12 @@
 /* End dramatis personae */
 
 /* Begin costumes */
+#costumes ul{
+	list-style-type: none;
+	padding-left: 0;
+	text-indent: 1em;
+}
+
 #costumes header{
 	font-variant: small-caps;
 	margin-top: 2em;
