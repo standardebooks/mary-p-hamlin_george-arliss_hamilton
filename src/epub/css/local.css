@@ -149,6 +149,18 @@ tr.together td + td{
 		margin-top: 1.5em;
 	}
 
+	/* `together` rows get a pseudo-stage-direction. */
+	[epub|type~="z3998:drama"] tr.together td[epub|type~="z3998:persona"]::after{
+		content: " (Together.)";
+		font-style: italic;
+		font-variant: normal;
+	}
+
+	[epub|type~="z3998:drama"] .together td:last-child{
+		border: none;
+		padding: 0;
+	}
+
 	/* Rows that are only stage direction get a top margin. */
 	[epub|type~="z3998:drama"] td:first-child:not([epub|type]) + td{
 		margin-top: 1.5em;
