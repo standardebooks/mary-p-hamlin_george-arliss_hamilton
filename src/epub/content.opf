@@ -79,9 +79,9 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Trumbull</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50011728</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">Packer1028</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Packer1028</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org/wiki/User:Packer1028</meta>
+		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org/</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Anonymous</meta>
