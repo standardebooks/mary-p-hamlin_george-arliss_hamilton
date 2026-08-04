@@ -47,7 +47,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85061151</meta>
 		<meta property="schema:genre">Drama</meta>
-		<dc:abstract>Founding father Alexander Hamilton is enticed into an affair, and then threatened with exposure.</dc:abstract>
+		<meta property="schema:abstract">Founding father Alexander Hamilton is enticed into an affair, and then threatened with exposure.</meta>
 		<dc:description>
 			&lt;p&gt;Founding father &lt;a href="https://standardebooks.org/ebooks/alexander-hamilton"&gt;Alexander Hamilton&lt;/a&gt; is enticed into an extramarital affair by Mrs. Reynolds, perhaps with the connivance of his political enemies, then blackmailed by her husband. When his payments to her husband are exposed, Hamilton is accused of exploiting his office. Will Hamilton sacrifice his personal honor and future ambitions to preserve the integrity of the office? The play is based on historical fact, but condenses the timeline, capturing the essence of Hamilton’s sincerity, dedication, honor, and courage.&lt;/p&gt;
 		</dc:description>
